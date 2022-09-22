@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const config = require("../config.json");
 const client = require("../index.js");
 const { Koreanbots } = require("koreanbots");
-const koreanbots = new Koreanbots({ api: { token: "한디리토큰" }, clientID: "1004740873092862062" });
+const koreanbots = new Koreanbots({ api: { token: "한디리토큰" }, clientID: "클라이언트아이디" });
 
 module.exports = {
     name: "하트출첵",
