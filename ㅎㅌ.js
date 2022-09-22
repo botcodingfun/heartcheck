@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const config = require("../config.json");
 const client = require("../index.js");
 const { Koreanbots } = require("koreanbots");
-const koreanbots = new Koreanbots({ api: { token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDQ3NDA4NzMwOTI4NjIwNjIiLCJpYXQiOjE2NjI2OTc0NTF9.Ht9RHuQyHRsPCitRhcV4nQ8vMUs25WrAOWskLbVasqwqlPsp3gYv9QAihXmBZESCeOPsIG3GXhLvWL2_h6CO-FlGtJxnaJAqzcQItupOL2TYfGs9ap35_MELZprrb1jAiHkb4Q5NinPtiTf4pgXfW_8Fii9heAYg1oEwFnDtp9o" }, clientID: "1004740873092862062" });
+const koreanbots = new Koreanbots({ api: { token: "한디리 토큰" }, clientID: "봇 아이디" });
 
 module.exports = {
     name: "하트출첵",
